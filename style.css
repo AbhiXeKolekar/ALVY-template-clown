@@ -13,6 +13,12 @@ html, body {
   height: 100%;
   width: 100%;
   background-color: #121212;
+  color: white;
+}
+
+section {
+  max-width: 1600px;
+  align-self: center;
 }
 
 main {
@@ -79,6 +85,399 @@ main section.view1 .bottom .text .btn p {
   font-size: 1rem;
   opacity: 0.9;
 }
+main section.view2 {
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+main section.view2 .top {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+main section.view2 .top .clients {
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+  align-items: center;
+}
+main section.view2 .top .clients p {
+  font-size: 1rem;
+  opacity: 0.5;
+}
+main section.view2 .top .clients h3 {
+  font-size: 2.5rem;
+  opacity: 0.8;
+}
+main section.view2 .top .projects {
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+  align-items: center;
+}
+main section.view2 .top .projects p {
+  font-size: 1rem;
+  opacity: 0.5;
+}
+main section.view2 .top .projects h3 {
+  font-size: 2.5rem;
+  opacity: 0.8;
+}
+main section.view2 .bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+main section.view2 .bottom .happy-clients {
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+  align-items: center;
+}
+main section.view2 .bottom .happy-clients p {
+  font-size: 1rem;
+  opacity: 0.5;
+}
+main section.view2 .bottom .happy-clients h3 {
+  font-size: 2.5rem;
+  opacity: 0.8;
+}
+main section.view2 .bottom .followers {
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+  align-items: center;
+}
+main section.view2 .bottom .followers p {
+  font-size: 1rem;
+  opacity: 0.5;
+}
+main section.view2 .bottom .followers h3 {
+  font-size: 2.5rem;
+  opacity: 0.8;
+}
+main section.view3 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+}
+main section.view3 .top {
+  width: 100%;
+}
+main section.view3 .top img {
+  width: 100%;
+  border-radius: 10px;
+}
+main section.view3 .bottom {
+  background-color: #1E1E1E;
+  color: white;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 3.5rem;
+  padding: 1.5rem;
+  border-radius: 10px;
+}
+main section.view3 .bottom .bottom > p {
+  font-size: 0.9 rem;
+  opacity: 0.8;
+}
+main section.view3 .bottom .text h1 {
+  opacity: 0.9;
+  font-size: 2.1rem;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+main section.view3 .bottom .text p {
+  line-height: 1.7;
+  font-size: 1.2rem;
+  opacity: 0.5;
+}
+main section.view4 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+}
+main section.view4 .top {
+  width: 100%;
+}
+main section.view4 .top img {
+  width: 100%;
+  border-radius: 10px;
+}
+main section.view4 .bottom {
+  background-color: #1E1E1E;
+  color: white;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 3.5rem;
+  padding: 1.5rem;
+  border-radius: 10px;
+}
+main section.view4 .bottom .bottom > p {
+  font-size: 0.9 rem;
+  opacity: 0.8;
+}
+main section.view4 .bottom .text h1 {
+  opacity: 0.9;
+  font-size: 2.1rem;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+main section.view4 .bottom .text p {
+  line-height: 1.7;
+  font-size: 1.2rem;
+  opacity: 0.5;
+}
+main section.view5 {
+  width: 100%;
+  padding: 1rem;
+  padding-top: 0.5rem;
+}
+main section.view5 .team {
+  display: flex;
+  padding-left: 1.5rem;
+  padding-bottom: 0.5rem;
+}
+main section.view5 .team .heading h1 {
+  font-weight: 100;
+}
+main section.view5 .team .btn {
+  display: none;
+}
+main section.view5 .members {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+main section.view5 .members .mem1 {
+  width: 100%;
+  background-image: url(./assets/member1.webp);
+  aspect-ratio: 1/1;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+  justify-content: space-between;
+  padding: 1rem 1rem;
+  border-radius: 10px;
+}
+main section.view5 .members .mem1 .top {
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+main section.view5 .members .mem1 .top i {
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0.5rem 0.5rem;
+  border-radius: 50%;
+  border: 1px solid rgb(156, 156, 156);
+  background-color: rgba(86, 86, 86, 0.377);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  cursor: pointer;
+}
+main section.view5 .members .mem1 .info {
+  padding: 1rem;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(86, 86, 86, 0.377);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  border-radius: 10px;
+}
+main section.view5 .members .mem1 .info h3 {
+  font-size: 1.1rem;
+}
+main section.view5 .members .mem1 .info p {
+  font-size: 0.7rem;
+}
+main section.view5 .members .mem2 {
+  width: 100%;
+  background-image: url(./assets/member2.webp);
+  aspect-ratio: 1/1;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+  justify-content: space-between;
+  padding: 1rem 1rem;
+  border-radius: 10px;
+}
+main section.view5 .members .mem2 .top {
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+main section.view5 .members .mem2 .top i {
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0.5rem 0.5rem;
+  border-radius: 50%;
+  border: 1px solid rgb(156, 156, 156);
+  background-color: rgba(86, 86, 86, 0.377);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  cursor: pointer;
+}
+main section.view5 .members .mem2 .info {
+  padding: 1rem;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(86, 86, 86, 0.377);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  border-radius: 10px;
+}
+main section.view5 .members .mem2 .info h3 {
+  font-size: 1.1rem;
+}
+main section.view5 .members .mem2 .info p {
+  font-size: 0.7rem;
+}
+main section.view5 .members .mem3 {
+  width: 100%;
+  background-image: url(./assets/member3.webp);
+  aspect-ratio: 1/1;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+  justify-content: space-between;
+  padding: 1rem 1rem;
+  border-radius: 10px;
+}
+main section.view5 .members .mem3 .top {
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+main section.view5 .members .mem3 .top i {
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0.5rem 0.5rem;
+  border-radius: 50%;
+  border: 1px solid rgb(156, 156, 156);
+  background-color: rgba(86, 86, 86, 0.377);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  cursor: pointer;
+}
+main section.view5 .members .mem3 .info {
+  padding: 1rem;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(86, 86, 86, 0.377);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  border-radius: 10px;
+}
+main section.view5 .members .mem3 .info h3 {
+  font-size: 1.1rem;
+}
+main section.view5 .members .mem3 .info p {
+  font-size: 0.7rem;
+}
+main section.view6 {
+  width: 100%;
+  padding: 0rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+main section.view6 .top {
+  width: 100%;
+}
+main section.view6 .top img {
+  width: 100%;
+  border-radius: 10px;
+}
+main section.view6 .bottom {
+  border-radius: 10px;
+  text-transform: uppercase;
+  background-color: #1E1E1E;
+  padding: 1rem 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  justify-content: space-between;
+}
+main section.view6 .bottom .text p {
+  line-height: 3rem;
+  opacity: 0.5;
+}
+main section.view6 .bottom .text h3 {
+  font-size: 2rem;
+  font-weight: 100;
+  line-height: 2.5rem;
+}
+main section.view6 .bottom .btn {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1rem;
+}
+main section.view6 .bottom .btn i {
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  background-color: rgba(72, 71, 71, 0.5137254902);
+  border-radius: 50%;
+  cursor: pointer;
+  opacity: 0.8;
+}
+main section.view7 {
+  width: 100%;
+  padding: 1rem;
+  color: black;
+}
+main section.view7 .view {
+  text-transform: uppercase;
+  padding: 1.5rem;
+  background-color: #CEBD63;
+  border-radius: 10px;
+}
+main section.view7 .view p {
+  line-height: 3rem;
+}
+main section.view7 .view h1 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  line-height: 2.5rem;
+}
+main section.view7 button {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  color: white;
+  background-color: black;
+  border-radius: 10px;
+  font-size: 1rem;
+  gap: 1rem;
+  cursor: pointer;
+}
+main section.view7 button i {
+  font-size: 1.5rem;
+}
 
 @media (min-width: 900px) {
   main section.view1 {
@@ -97,9 +496,149 @@ main section.view1 .bottom .text .btn p {
     padding: 4rem;
   }
   main section.view1 .bottom .text h1 {
-    font-size: 3.5rem;
+    font-size: 3rem;
   }
   main section.view1 .bottom .text p {
+    font-size: 1rem;
+  }
+  main section.view2 {
+    padding: 2.5rem;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  main section.view2 .top, main section.view2 .bottom {
+    width: 50%;
+  }
+  main section.view2 .top {
+    justify-content: space-around;
+  }
+  main section.view2 .top .clients h3, main section.view2 .top .projects h3 {
+    font-size: 3rem;
+  }
+  main section.view2 .bottom {
+    justify-content: space-around;
+  }
+  main section.view2 .bottom .happy-clients h3, main section.view2 .bottom .followers h3 {
+    font-size: 3rem;
+  }
+  main section.view3 {
+    flex-direction: row-reverse;
+  }
+  main section.view3 .top, main section.view3 .bottom {
+    width: 50%;
+  }
+  main section.view3 .top {
+    -o-object-fit: contain;
+       object-fit: contain;
+    height: 100%;
+  }
+  main section.view3 .bottom {
+    justify-content: space-between;
+    padding: 4rem;
+  }
+  main section.view3 .bottom .text .paragraphs {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+  main section.view3 .bottom .text h1 {
+    font-size: 3rem;
+  }
+  main section.view3 .bottom .text p {
+    font-size: 1rem;
+  }
+  main section.view4 {
+    flex-direction: row;
+  }
+  main section.view4 .top, main section.view4 .bottom {
+    width: 50%;
+  }
+  main section.view4 .top {
+    -o-object-fit: contain;
+       object-fit: contain;
+    height: 100%;
+  }
+  main section.view4 .bottom {
+    justify-content: space-between;
+    padding: 4rem;
+  }
+  main section.view4 .bottom .text .paragraphs {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+  main section.view4 .bottom .text h1 {
+    font-size: 3rem;
+  }
+  main section.view4 .bottom .text p {
+    font-size: 1rem;
+  }
+  main section.view5 .team {
+    padding: 2rem;
+    padding-bottom: 3rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  main section.view5 .team h1 {
+    font-size: 3rem;
+    font-weight: 100;
+  }
+  main section.view5 .team .btn {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1rem;
+  }
+  main section.view5 .team .btn i {
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    background-color: rgba(72, 71, 71, 0.5137254902);
+    border-radius: 50%;
+    cursor: pointer;
+    opacity: 0.8;
+  }
+  main section.view5 .members {
+    flex-direction: row;
+  }
+  main section.view6 {
+    flex-direction: row;
+  }
+  main section.view6 .top, main section.view6 .bottom {
+    width: 50%;
+  }
+  main section.view6 .bottom {
+    padding: 3rem 4rem;
+  }
+  main section.view6 .bottom .text p {
+    font-size: 1.5rem;
+  }
+  main section.view6 .bottom .text h3 {
+    font-size: 3.5rem;
+    line-height: 4rem;
+    opacity: 0.9;
+  }
+  main section.view6 .bottom .btn {
+    font-size: 1.2rem;
+  }
+  main section.view7 .view {
+    padding: 3.5rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  main section.view7 .view .text p {
+    font-size: 1.2rem;
+  }
+  main section.view7 .view .text h1 {
+    font-size: 5rem;
+    line-height: 5rem;
+  }
+  main section.view7 .view .btn {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  main section.view7 .view .btn button {
     font-size: 1rem;
   }
 }/*# sourceMappingURL=style.css.map */
