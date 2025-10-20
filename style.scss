@@ -519,6 +519,7 @@ main{
                 display: flex;
                 gap: 1rem;
                 font-size: 1.2rem;
+                cursor: pointer;
 
                 i{
                     background-color: #292929;
@@ -848,8 +849,33 @@ main{
         }
 
         section.view8{
+            width: 100%;
             display: grid;
+            grid-template-areas: "socials foot foot foot foot"
+                       "socials foot foot foot foot"
+                       "socials credit credit credit credit";
+
+            .socials{
+                grid-area: socials;
+            }
             
+            .foot{
+                grid-area: foot;
+                flex-direction: row;
+                gap: 10rem;
+
+                .pages button{
+                    width: 100%;
+                    cursor: pointer;
+                }
+            }
+
+            .credit{
+                grid-area: credit;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+            }
         }
     }
 }

@@ -505,6 +505,7 @@ main section.view8 .socials .social-icons {
   display: flex;
   gap: 1rem;
   font-size: 1.2rem;
+  cursor: pointer;
 }
 main section.view8 .socials .social-icons i {
   background-color: #292929;
@@ -766,6 +767,26 @@ main section.view8 .credit .btn i {
     gap: 0.2rem;
   }
   main section.view8 {
+    width: 100%;
     display: grid;
+    grid-template-areas: "socials foot foot foot foot" "socials foot foot foot foot" "socials credit credit credit credit";
+  }
+  main section.view8 .socials {
+    grid-area: socials;
+  }
+  main section.view8 .foot {
+    grid-area: foot;
+    flex-direction: row;
+    gap: 10rem;
+  }
+  main section.view8 .foot .pages button {
+    width: 100%;
+    cursor: pointer;
+  }
+  main section.view8 .credit {
+    grid-area: credit;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
   }
 }/*# sourceMappingURL=style.css.map */
