@@ -535,6 +535,10 @@ main section.view8 .foot .pages a {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.486);
 }
+main section.view8 .foot .pages a:hover {
+  color: whitesmoke;
+  text-decoration: underline;
+}
 main section.view8 .foot .pages button {
   width: 60%;
   text-transform: uppercase;
@@ -544,6 +548,10 @@ main section.view8 .foot .pages button {
   background-color: #CEBD63;
   color: black;
   font-weight: 700;
+}
+main section.view8 .foot .pages button:hover {
+  background-color: #95873f;
+  transition: 0.2s ease-in;
 }
 main section.view8 .foot .cms {
   display: flex;
@@ -558,6 +566,10 @@ main section.view8 .foot .cms a {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.486);
 }
+main section.view8 .foot .cms a:hover {
+  color: whitesmoke;
+  text-decoration: underline;
+}
 main section.view8 .foot .utility-page {
   display: flex;
   flex-direction: column;
@@ -570,6 +582,10 @@ main section.view8 .foot .utility-page h1 {
 main section.view8 .foot .utility-page a {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.486);
+}
+main section.view8 .foot .utility-page a:hover {
+  color: whitesmoke;
+  text-decoration: underline;
 }
 main section.view8 .credit {
   display: flex;
@@ -587,6 +603,7 @@ main section.view8 .credit .made-by {
 main section.view8 .credit .made-by .credit-name {
   color: white;
   text-decoration: underline;
+  cursor: pointer;
 }
 main section.view8 .credit .btn {
   display: flex;

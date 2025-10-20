@@ -38,6 +38,18 @@ html, body{
                 }
 }
 
+@mixin foot-anchors(){
+                a{
+                    text-decoration: none;
+                    color: rgba(255, 255, 255, 0.486);
+                }
+
+                a:hover{
+                    color: whitesmoke;
+                    text-decoration: underline;
+                }
+}
+
 section{
     max-width: 1600px;
     align-self: center;
@@ -545,10 +557,7 @@ main{
                     opacity: 0.8;
                 }
 
-                a{
-                    text-decoration: none;
-                    color: rgba(255, 255, 255, 0.486);
-                }
+                @include foot-anchors();
 
                 button{
                     width: 60%;
@@ -560,6 +569,11 @@ main{
                     color: black;
                     font-weight: 700;
                 }
+
+                button:hover{
+                    background-color: #95873f;
+                    transition: 0.2s ease-in;
+                }
             }
 
             .cms{
@@ -570,10 +584,7 @@ main{
                     opacity: 0.8;
                 }
 
-                a{
-                    text-decoration: none;
-                    color: rgba(255, 255, 255, 0.486);
-                }
+                @include foot-anchors();
             }
 
             .utility-page{
@@ -584,10 +595,7 @@ main{
                     opacity: 0.8;
                 }
 
-                a{
-                    text-decoration: none;
-                    color: rgba(255, 255, 255, 0.486);
-                }
+                @include foot-anchors();
             }
 
         }
@@ -606,6 +614,7 @@ main{
                 .credit-name{
                     color: white;
                     text-decoration: underline;
+                    cursor: pointer;
                 }
             }
 
